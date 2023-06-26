@@ -15,7 +15,7 @@ html, body {
 }
 
 img {
-    width: 150px;
+    width: 180px;
     margin: 0 auto;
 }
 
@@ -40,10 +40,7 @@ button {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
-}
-
-button:hover {
-    background-color: #432000;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
@@ -62,10 +59,6 @@ ul li {
     border-radius: 8px;
     flex-grow: 1;
     text-align: center;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
-}
-
-ul li:hover {
-    background-color: #FFECC7;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
